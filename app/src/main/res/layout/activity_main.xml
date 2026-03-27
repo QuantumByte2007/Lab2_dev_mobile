@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="100dp"
+    android:paddingTop="200dp"
+ >
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="224dp"
+        android:layout_height="31dp"
+
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/adresse"
+        android:layout_width="224dp"
+        android:layout_height="31dp"
+
+        android:text="Adresse" />
+
+    <EditText
+        android:id="@+id/edit_adresse"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+    <TextView
+        android:id="@+id/surface"
+        android:layout_width="224dp"
+        android:layout_height="31dp"
+
+        android:text="Surface" />
+
+    <EditText
+        android:id="@+id/edit_surface"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="" />
+    <TextView
+        android:id="@+id/nbr_piece"
+        android:layout_width="224dp"
+        android:layout_height="31dp"
+
+        android:text="Nombre de pièces" />
+
+    <EditText
+        android:id="@+id/edit_nbr"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="265dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="Calcul" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="Piscine" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:text="" />
+
+</LinearLayout>
